@@ -1,0 +1,7 @@
+ring_design,strategy,heating_per_ring_mean_nm,crossover_median_mm,crossover_p5_mm,crossover_p95_mm,crossover_mean_mm
+"5.00 um ring, FSR 18.2 nm",fixed,9.135,6.935,4.412,9.444,6.934
+"5.00 um ring, FSR 18.2 nm",barrel shift,2.937,4.958,4.411,5.862,5.023
+"5.00 um ring, FSR 18.2 nm",reassign,2.937,4.958,4.411,5.862,5.023
+"7.11 um ring, FSR 12.8 nm (matched)",fixed,6.415,6.102,4.411,7.778,6.096
+"7.11 um ring, FSR 12.8 nm (matched)",barrel shift,1.191,4.486,4.28,4.684,4.485
+"7.11 um ring, FSR 12.8 nm (matched)",reassign,1.191,4.486,4.28,4.684,4.485

@@ -1,0 +1,9 @@
+case,crossover_mm
+all imperfections at best value,3.9508542290327053
+baseline (published defaults),4.7348069597304985
+all imperfections at worst value,inf
+"all worst, but Waveguide loss (dB/cm) at baseline",9.493985609293269
+"all worst, but Coupler loss (dB) at baseline",inf
+"all worst, but Wavelength error to fix (nm) at baseline",inf
+"all worst, but Heater efficiency (uW per nm) at baseline",inf
+"all worst, but Laser efficiency at baseline",9.474226722348295

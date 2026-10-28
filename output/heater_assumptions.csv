@@ -1,0 +1,16 @@
+assumption,value,unit,source,range tested
+Heater power to shift one ring by 1 nm,100.0,uW per nm,"Manipatruni et al. 2012 (target); 225 demonstrated (Dong et al. 2010, cited there)",50.0 to 225.0
+Waveguide width spread across a wafer (1 sigma),5.52,nm,"Su et al., OFC 2014 (measured)",2.0 to 10.0
+Silicon thickness spread across a wafer (1 sigma),1.35,nm,"Su et al., OFC 2014 (measured)",0.5 to 3.0
+Range of chip operating temperature,20.0,K,Manipatruni et al. 2012,0.0 to 40.0
+Extra ring-to-ring spread within one chip (1 sigma),0.27,nm,"Mirza et al., IEEE TCAD 2021: 0.17, 0.25, 0.38 nm measured for 3 designs on one chip (mean 0.27); Beausoleil et al. (cited there): 0.5 nm within-die",0.17 to 0.5
+Wavelengths per waveguide,8,,Design choice; matches the 1x8 array of Krishnamoorthy et al. 2011,4 to 16
+Spacing between wavelengths,200.0,GHz,Design choice; 200 GHz grid as in Krishnamoorthy et al. 2011,100.0 to 400.0
+Ring radius for the simple design (sets the free spectral range),5.0,um,Design choice,3.0 to 10.0
+"Heaters can only warm, so rings only move to longer wavelength",True,,Physics: silicon's refractive index rises with temperature,
+Energy of the circuits that drive and control heaters,0.0,,Not modelled (limitation),
+Heat leaking from one ring's heater to its neighbours,0.0,,Not modelled (limitation),
+Matched ring radius (FSR = channels x spacing),7.107,um,Design rule from Krishnamoorthy et al. 2011; radius computed from simulated group index,
+Ring shift per nm of width error,0.585,nm per nm,"Simulated (simulate_from_scratch.py, femwell)",
+Ring shift per nm of thickness error,1.372,nm per nm,"Simulated (simulate_from_scratch.py, femwell)",
+Ring shift per kelvin,0.0741,nm per K,"Simulated (simulate_from_scratch.py, femwell)",

@@ -1,0 +1,31 @@
+input,value,unit,source
+"Copper wire resistance (met4, min width)",156.7,ohm/mm,SKY130 kit tech file (sheet resistance / width)
+Copper wire capacitance to ground,75.9,fF/mm,SKY130 kit tech file (area + edge capacitance)
+Coupling to one neighbouring wire,92.1,fF/mm,"Estimate: parallel plates, eps_r 3.9 (SiO2), thickness 0.8 um (SKY130 docs), spacing 0.3 um (kit)"
+Gate speed R0 x Cin,12.32,ps,"SKY130 inverter (inv_1 sizes) simulated in ngspice, typical corner"
+Gate output / input capacitance,1.21,,Same ngspice simulation
+Supply voltage,1.8 and 0.8,V,1.8 V: SKY130 core supply. 0.8 V: matches the newer chips behind the optical numbers
+Data activity,0.25,,Random data: a wire charges on 1 bit in 4 (textbook)
+Optical receiver sensitivity,-17.0,dBm,"Samanta et al. 2025, Sec. IV (measured at 25 Gb/s)"
+Coupler / modulator loss,3.0 / 1.0,dB,"Samanta et al. 2025, Table I"
+Waveguide loss,1.0,dB/cm,"Samanta et al. 2025, Table I"
+Laser wall-plug efficiency,0.3,,"Samanta et al. 2025, Table I"
+Modulator driver energy,50.0,fJ/bit,"Samanta et al. 2025, Table I"
+Receiver energy,191.0,fJ/bit,"Samanta et al. 2025, Sec. IV (measured)"
+Bit rate,10.0,Gb/s,Design choice
+Waveguide group index,4.20,,Simulated (femwell); published 4.15-4.37
+Conversion delay (130 nm-era),113.8,ps,"Friedman, Table I, 90 nm column"
+Heater power to shift one ring by 1 nm,100.0,uW per nm,"Manipatruni et al. 2012 (target); 225 demonstrated (Dong et al. 2010, cited there); range tested 50.0 to 225.0"
+Waveguide width spread across a wafer (1 sigma),5.52,nm,"Su et al., OFC 2014 (measured); range tested 2.0 to 10.0"
+Silicon thickness spread across a wafer (1 sigma),1.35,nm,"Su et al., OFC 2014 (measured); range tested 0.5 to 3.0"
+Range of chip operating temperature,20.0,K,Manipatruni et al. 2012; range tested 0.0 to 40.0
+Extra ring-to-ring spread within one chip (1 sigma),0.27,nm,"Mirza et al., IEEE TCAD 2021: 0.17, 0.25, 0.38 nm measured for 3 designs on one chip (mean 0.27); Beausoleil et al. (cited there): 0.5 nm within-die; range tested 0.17 to 0.5"
+Wavelengths per waveguide,8,,Design choice; matches the 1x8 array of Krishnamoorthy et al. 2011; range tested 4 to 16
+Spacing between wavelengths,200.0,GHz,Design choice; 200 GHz grid as in Krishnamoorthy et al. 2011; range tested 100.0 to 400.0
+Ring radius for the simple design (sets the free spectral range),5.0,um,Design choice; range tested 3.0 to 10.0
+"Heaters can only warm, so rings only move to longer wavelength",True,,Physics: silicon's refractive index rises with temperature
+Energy of the circuits that drive and control heaters,0.0,,Not modelled (limitation)
+Heat leaking from one ring's heater to its neighbours,0.0,,Not modelled (limitation)
+Ring shift per nm of width error,0.585,nm/nm,Simulated (femwell)
+Ring shift per nm of thickness error,1.372,nm/nm,Simulated (femwell); Su et al. measured 1.367
+Ring shift per kelvin,0.0741,nm/K,Simulated (femwell)

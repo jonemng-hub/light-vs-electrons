@@ -1,0 +1,13 @@
+copper_case,vdd_V,c_fF_per_mm,r_ohm_per_mm,copper_ps_per_mm,copper_fJ_per_mm,heater_case,energy_crossover_median_mm,energy_crossover_p5_mm,energy_crossover_p95_mm,energy_crossover_usual_2nm_mm,delay_crossover_mm
+"1.8 V, isolated wire",1.8,75.9,156.7,35.12,129.3,"Fixed channels, 5 um ring",3.5,2.227,4.766,2.39,5.387
+"1.8 V, isolated wire",1.8,75.9,156.7,35.12,129.3,"Reassign rings, 5 um ring",2.503,2.227,2.959,2.39,5.387
+"1.8 V, isolated wire",1.8,75.9,156.7,35.12,129.3,"Reassign rings, matched ring",2.265,2.161,2.365,2.39,5.387
+"1.8 V, packed wire",1.8,260.0,156.7,65.02,443.0,"Fixed channels, 5 um ring",1.018,0.648,1.386,0.695,2.23
+"1.8 V, packed wire",1.8,260.0,156.7,65.02,443.0,"Reassign rings, 5 um ring",0.728,0.648,0.86,0.695,2.23
+"1.8 V, packed wire",1.8,260.0,156.7,65.02,443.0,"Reassign rings, matched ring",0.659,0.628,0.688,0.695,2.23
+"0.8 V, isolated wire",0.8,75.9,156.7,35.12,25.5,"Fixed channels, 5 um ring",18.172,11.537,24.806,12.385,5.387
+"0.8 V, isolated wire",0.8,75.9,156.7,35.12,25.5,"Reassign rings, 5 um ring",12.971,11.535,15.347,12.385,5.387
+"0.8 V, isolated wire",0.8,75.9,156.7,35.12,25.5,"Reassign rings, matched ring",11.733,11.191,12.253,12.385,5.387
+"0.8 V, packed wire",0.8,260.0,156.7,65.02,87.5,"Fixed channels, 5 um ring",5.184,3.298,7.059,3.54,2.23
+"0.8 V, packed wire",0.8,260.0,156.7,65.02,87.5,"Reassign rings, 5 um ring",3.706,3.298,4.382,3.54,2.23
+"0.8 V, packed wire",0.8,260.0,156.7,65.02,87.5,"Reassign rings, matched ring",3.354,3.2,3.502,3.54,2.23

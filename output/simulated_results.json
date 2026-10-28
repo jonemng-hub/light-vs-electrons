@@ -1,0 +1,72 @@
+{
+  "wire": {
+    "rows": [
+      {
+        "case": "one repeater segment",
+        "length_mm": 0.738,
+        "delay_ps": 17.19,
+        "runtime_ms": 8.3
+      },
+      {
+        "case": "1 mm, no repeaters",
+        "length_mm": 1.0,
+        "delay_ps": 23.75,
+        "runtime_ms": 2.7
+      },
+      {
+        "case": "2 mm, no repeaters",
+        "length_mm": 2.0,
+        "delay_ps": 58.27,
+        "runtime_ms": 3.2
+      },
+      {
+        "case": "5 mm, no repeaters",
+        "length_mm": 5.0,
+        "delay_ps": 252.58,
+        "runtime_ms": 3.0
+      },
+      {
+        "case": "10 mm, no repeaters",
+        "length_mm": 10.0,
+        "delay_ps": 879.39,
+        "runtime_ms": 2.8
+      }
+    ],
+    "segment_mm": 0.7380628984749628,
+    "sim_ps_per_mm": 23.29069790057078,
+    "formula_ps_per_mm": 21.907990092351902
+  },
+  "waveguide_design": {
+    "width_nm": 500.0,
+    "thickness_nm": 220.0,
+    "n_eff": 2.4472421565068645,
+    "n_g": 4.196106733596361,
+    "dlam_dwidth_nm_per_nm": 0.584916240884714,
+    "dlam_dthick_nm_per_nm": 1.3723773662099399,
+    "dlam_dT_nm_per_K": 0.07406162804066602
+  },
+  "waveguide_check_400nm": {
+    "width_nm": 400.0,
+    "thickness_nm": 220.0,
+    "n_eff": 2.228874336845907,
+    "n_g": 4.392066703528069,
+    "dlam_dwidth_nm_per_nm": 1.04280715887357,
+    "dlam_dthick_nm_per_nm": 1.3476606959224702,
+    "dlam_dT_nm_per_K": 0.07048737010663614
+  },
+  "fsr_nm": 18.224977344680678,
+  "crossover_fixed_mm": 4.7348069597304985,
+  "crossover_heat_only": {
+    "median_mm": 6.922482867767873,
+    "p5_mm": 4.586538727146001,
+    "p95_mm": 9.265444617456623,
+    "never_wins_pct": 0.0
+  },
+  "crossover_either_way": {
+    "median_mm": 4.967597372308077,
+    "p5_mm": 4.3478640981353545,
+    "p95_mm": 5.953791063382614,
+    "never_wins_pct": 0.0
+  },
+  "delay_crossover_simulated_mm": 5.272222923628013
+}

@@ -1,0 +1,112 @@
+{
+  "pdk": "~/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A",
+  "tech_file": "~/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef",
+  "layer": "met4",
+  "metal_layers": {
+    "li1": {
+      "width_um": 0.17,
+      "spacing_um": null,
+      "rsheet_ohm_per_sq": 12.8,
+      "c_area_pF_per_um2": 3.69866e-05,
+      "c_edge_pF_per_um": 4.0697e-05
+    },
+    "met1": {
+      "width_um": 0.14,
+      "spacing_um": null,
+      "rsheet_ohm_per_sq": 0.125,
+      "c_area_pF_per_um2": 2.57784e-05,
+      "c_edge_pF_per_um": 4.0567e-05
+    },
+    "met2": {
+      "width_um": 0.14,
+      "spacing_um": null,
+      "rsheet_ohm_per_sq": 0.125,
+      "c_area_pF_per_um2": 1.69423e-05,
+      "c_edge_pF_per_um": 3.7759e-05
+    },
+    "met3": {
+      "width_um": 0.3,
+      "spacing_um": null,
+      "rsheet_ohm_per_sq": 0.047,
+      "c_area_pF_per_um2": 1.23729e-05,
+      "c_edge_pF_per_um": 4.0989e-05
+    },
+    "met4": {
+      "width_um": 0.3,
+      "spacing_um": null,
+      "rsheet_ohm_per_sq": 0.047,
+      "c_area_pF_per_um2": 8.41537e-06,
+      "c_edge_pF_per_um": 3.6676e-05
+    },
+    "met5": {
+      "width_um": 1.6,
+      "spacing_um": null,
+      "rsheet_ohm_per_sq": 0.0285,
+      "c_area_pF_per_um2": 6.32063e-06,
+      "c_edge_pF_per_um": 3.8851e-05
+    }
+  },
+  "inverter": {
+    "unit_style": "scaled",
+    "loads_fF": [
+      0.0,
+      5.0,
+      10.0,
+      20.0,
+      40.0
+    ],
+    "delays_ps": [
+      9.561,
+      30.434,
+      50.299,
+      89.756,
+      168.494
+    ],
+    "R0_ohm": 5741.872282608693,
+    "Cin_fF": 2.1457888888888887,
+    "Cout_fF": 2.5948529640274436,
+    "tau_ps": 12.320845745440815,
+    "gamma": 1.209276913243355
+  },
+  "crossovers": [
+    {
+      "case": "hand-picked (previous)",
+      "r_ohm_per_mm": 100.0,
+      "c_fF_per_mm": 200.0,
+      "tau_ps": 3.0,
+      "gamma": 1.0,
+      "vdd": 0.8,
+      "delay_ps_per_mm": 21.907990092351902,
+      "energy_fJ_per_mm": 65.58398514129935,
+      "repeater_spacing_mm": 0.7380628984749628,
+      "energy_crossover_mm": 4.7348069597304985,
+      "delay_crossover_mm": 6.193684372868647
+    },
+    {
+      "case": "SKY130 wire + gates, 1.8 V",
+      "r_ohm_per_mm": 156.66666666666669,
+      "c_fF_per_mm": 75.876611,
+      "tau_ps": 12.320845745440815,
+      "gamma": 1.209276913243355,
+      "vdd": 1.8,
+      "delay_ps_per_mm": 35.122846374411566,
+      "energy_fJ_per_mm": 129.25312064359656,
+      "repeater_spacing_mm": 2.039087302184462,
+      "energy_crossover_mm": 2.39047118694139,
+      "delay_crossover_mm": 2.3194013614357365
+    },
+    {
+      "case": "SKY130 wire + gates, 0.8 V energy",
+      "r_ohm_per_mm": 156.66666666666669,
+      "c_fF_per_mm": 75.876611,
+      "tau_ps": 12.320845745440815,
+      "gamma": 1.209276913243355,
+      "vdd": 0.8,
+      "delay_ps_per_mm": 35.122846374411566,
+      "energy_fJ_per_mm": 25.53148062095735,
+      "repeater_spacing_mm": 2.039087302184462,
+      "energy_crossover_mm": 12.385311394138157,
+      "delay_crossover_mm": 2.3194013614357365
+    }
+  ]
+}
