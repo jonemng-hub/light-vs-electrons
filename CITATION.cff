@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Where Does Light Beat Copper? How Manufacturing Variation and Heater Strategy Set the Crossover Length of On-Chip Optical Links"
+authors:
+  - family-names: "Ng"
+    given-names: "Jone"
+version: "1.0.0"
+license: MIT
